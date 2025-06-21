@@ -1,9 +1,11 @@
 # A no-framework pseudo-psychometric Web application
 _Submitted in fulfilment of a university assignment. Some details are omitted to deter future students._
 
+See **guide.pdf** for a user guide and explication of the analysis methodology.
+
 ## Task
 Develop a no-framework Web application for an online psychological profile.
-After completing a psychometric questionnaire, selecting a job category and favourite animals, the application provides
+After completing a (predefined) psychometric questionnaire, selecting a job category and favourite animals, the application provides
 a job suitability score, recommends films, and displays random images of the selected animals.
 
 ### Requirements
