@@ -1,0 +1,187 @@
+body { font-family: 'Helvetica', 'Arial', sans-serif; }
+
+h2 {
+    color: #30445f;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Logo for banner & 404 page */
+.logo {
+    width: 120px;
+    height: auto;
+}
+.logo:hover { cursor: pointer; }
+
+/* Banner styling */
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 80%;
+}
+.banner-text {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 6.25%;
+}
+.banner-text h1, .error-container h1 {
+    font-size: 42px;
+    margin: 0;
+    color: #30445f;
+}
+.banner-text p {
+    font-size: 18px;
+    margin: 15px 0 0;
+    color: #555;
+}
+#banner-logo { padding-left: 3.125%; }
+
+/* Button styling */
+button {
+    background-color: #999;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;  /* rounded corners */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:focus { outline: none; }
+button:hover {
+    /* Darken background & move button up */
+    background-color: #777;
+    transform: translateY(-2px);
+}
+button:active {
+    /* Keep hover background & move slightly below baseline */
+    background-color: #777;
+    transform: translateY(2px);
+}
+/* Navigation buttons below the banner */
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+} 
+
+/* Add a shadow beneath the banner, forms and info containers */
+.banner, form, .info-container { box-shadow: 0 6px 6px rgba(0,0,0,0.15) }
+
+form, .info-container {
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Forms */
+form {
+    margin: 0 auto;
+    width: 40%;
+}
+form input, form textarea, form select {
+    background-color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+form table td { padding: 3px; }
+form input[type = "text"], textarea { width: 90%; }  
+form ol { list-style-type: none; }
+.radio-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.gender-radio input[type="radio"] { margin-right: 4px; }
+.radio-container input[type="radio"] { margin: 0; }
+
+/* Headers shown in view/input and view/profile */
+.view-header {
+    text-align: center;
+    border-bottom: 0;
+    padding-top: 10px;
+}
+
+/* Go to Top button */
+.scroll-button {
+    display: block;
+    margin: 20px auto;
+}
+
+/* view/profile content */
+#profile-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 60px;
+}
+/* left: career + pets; right: movies */
+#left-col, #movie-container { width: 30%; }
+#pet-container { margin-top: 20px; }
+
+/* Info containers in view/profile */
+.info-container h4 {
+    color: #30445f;
+    margin: 15px 0 10px;
+}
+.info-container p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+.info-container img {
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Psych score containers */
+#job-suitability, #movie-suitability {
+    border-radius: 50%;  /* i.e. a circle */
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    width: 60px;
+    height: 60px;
+    /* Centre */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Messages e.g. "Form responses saved!" */
+.message-container {
+    text-align: center;
+    font-size: 20px;
+    margin: 10%;
+}
+
+/* 404 page */
+.error-container {
+    height: 100vh;  /* Full screen */
+    display: flex;
+    flex-direction: column;  /* stack elements */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.error-container p {
+    font-size: 16px;
+    color: #555;
+}
+

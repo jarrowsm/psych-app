@@ -1,0 +1,73 @@
+{
+    "jobs": {
+        "ceo": {
+            "weights": { "O": -0.4, "C": -0.5, "E": 0.2, "A": 0.0, "N": -0.2 },
+            "movie": {
+                "title": "the wolf of wall street",
+                "year": "2013"
+            }
+        },
+        "astronaut": {
+            "weights": { "O": -0.277, "C": -0.205, "E": -0.147, "A": 0.286, "N": -0.205 },
+            "movie": {
+                "title": "interstellar",
+                "year": "2014"
+            }
+        },
+        "doctor": {
+            "weights": { "O": -0.02, "C": 0.229, "E": 0.216, "A": 0.233, "N": -0.303 },
+            "movie": {
+                "title": "contagion",
+                "year": "2011"
+            }
+        },
+        "model": {
+            "weights": { "O": 0.2, "C": 0.2, "E": 0.4, "A": 0.3, "N": -0.2 },
+            "movie": {
+                "title": "zoolander",
+                "year": "2001"
+            }
+        },
+        "rockstar": {
+            "weights": { "O": 1.35, "C": -0.75, "E": 0.24, "A": -0.44, "N": -0.73 },
+            "movie": {
+                "title": "zappa",
+                "year": "2020"
+            }
+        },
+        "garbage": {
+            "weights": { "O": -0.022, "C": 0.174, "E": -0.001, "A": 0.018, "N": -0.051 },
+            "movie": {
+                "title": "wall-e",
+                "year": "2008"
+            }
+        }
+    },
+    "movies": {
+        "M": {
+            "title": "city of angels",
+            "year": "1998",
+            "weights": { "O": 0.0, "C": 0.01, "E": 0.06, "A": 0.05, "N": 0.09 }
+        },
+        "O": {
+            "title": "angry birds",
+            "year": "2016",
+            "weights": { "O": -0.7, "C": 0.0, "E": 0.12, "A": 0.07, "N": -0.05 }
+        },
+        "V": {
+            "title": "apocalypse now",
+            "year": "1979",
+            "weights": { "O": 0.3, "C": 0.0, "E": 0.06, "A": 0.05, "N": -0.06 } },
+        "I": {
+            "title": "the lord of the rings",
+            "year": "2001",
+            "weights": { "O": 0.07, "C": -0.07, "E": 0.03, "A": 0.12, "N": 0.01 }
+        },
+        "E": {
+            "title": "se7en",
+            "year": "1995",
+            "weights": { "O": 0.14, "C": -0.04, "E": -0.09, "A": 0.02, "N": 0.12 }
+        }
+    }
+}
+
